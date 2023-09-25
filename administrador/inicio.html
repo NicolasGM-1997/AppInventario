@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="styles_inicio.css">
+	<link rel="icon" type="image/png" href="../images/icono.png" />
+	<title>Inicio</title>
+</head>
+<body>		
+	<div class="nav">
+		<nav>
+		<p class="titulo">APP DE INVENTARIO</p>
+		<ul>
+			<li><a href="../index.html">Inicio</a></li>
+			<li><a href="../Caracteristicas.html">Caracteristicas</b></a></li>
+			<li><a href="../Planes.html">Planes</a></li>
+			<li><a href="../Contacto.html">Contacto</a></li>
+			<li><a href="../Nosotros.html">Sobre Nosotros</a></li>
+		</ul>
+	</nav>
+	</div>
+	<h3 class="usuario" id="administrador">ADMINISTRADOR</h3>
+	<input class="btn1" onClick="window.location.href='../index.html'" name="submit" type="button" value="Cerrar Sesion" /> <br>
+	<div class="div1">
+		<center>
+			<h1 class="titulo2"> Seleccione la Opcion o Configuracion que desea hacer</h1><br><br>
+			<div class="div2"><b>Ingreso de Datos</b><br><br>
+				<input class="btn"  onClick="window.location.href='categoria.php'" name="submit" type="button" value="Categorias" /> <br><br>
+				<input class="btn"  onClick="window.location.href='factura.php'" name="submit" type="button" value="Ventas" /> <br><br>
+				<input class="btn"  onClick="window.location.href='compra.php'" name="submit" type="button" value="Compras"/> <br><br>
+			</div>
+			<div class="div3"><b>Actualizacion o Borrado</b><br><br>
+				<input class="btn"  onClick="window.location.href='actualizar.php'" name="submit" type="button" value="Actualizar" /> <br><br>
+				<input class="btn"  onClick="window.location.href='borrar.php'" name="submit" type="button" value="Borrar" /> <br><br>
+				<input class="btn"  onClick="window.location.href='consulta.php'" name="submit" type="button" value="Consultar" /> <br><br>
+			</div>
+			<div class="div4"><b>Busqueda de Datos</b><br><br>
+				<input class="btn"  onClick="window.location.href='buscar_m.php'" name="submit" type="button" value="Mercancias" /> <br><br>
+				<input class="btn"  onClick="window.location.href='buscar_s.php'" name="submit" type="button" value="Sedes" /> <br><br>
+				<input class="btn"  onClick="window.location.href='buscar_f.php'" name="submit" type="button" value="Ventas" /> <br><br>
+				<input class="btn"  onClick="window.location.href='buscar_e.php'" name="submit" type="button" value="Empleados" /> <br><br>
+				<input class="btn"  onClick="window.location.href='buscar_c.php'" name="submit" type="button" value="Clientes" /> <br><br>
+			</div>
+		</center>
+	</div>
+	<footer><center><br>COPYRIGHT © 2018 Inventory Software S.A.S.</center></footer>
+</body>
+</html>
